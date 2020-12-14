@@ -1,0 +1,75 @@
+
+        * {
+            border:solid
+        }
+        h1 {
+            color:orange;
+        margin-left:30px; 
+        padding-left:20px;
+        padding-right:20px;
+        }
+
+        .header{
+            background:red;
+            display:flex;
+            justify-content: space-between;
+
+
+        }
+  
+        .information{
+            background:blue
+        }
+
+        .games{
+            background:green
+        }
+
+        .media{
+            background:greenyellow;
+            display:flex;
+            justify-content: flex-end;
+        }
+
+        header *{
+            border:solid
+        }
+
+          a:link{
+            color:aqua
+        }
+
+         a:visited{
+            color:aqua
+        }
+
+        .item{
+            position:relative
+        }
+
+        .item p{
+            position:absolute;
+            top:50%;
+            left:50%;
+        }
+
+        .games{
+            display:flex;
+            justify-content:space-evenly;            
+           
+        }
+
+        .item p{
+            opacity:0;
+
+        }
+
+        .item:hover p{
+            opacity:1;
+        }
+
+        .item:hover img{
+            opacity:0.3;
+        }
+
+        
